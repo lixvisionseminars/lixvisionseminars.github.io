@@ -517,6 +517,12 @@ main {
     margin-bottom: 8px;
 }
 
+.publication-location {
+    color: #6c757d;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
 .publication-journal {
     color: #39bdbd;
     font-size: 18px;
@@ -958,6 +964,10 @@ footer a:hover {
         font-size: 16px;
     }
 
+    .publication-location {
+        font-size: 16px;
+    }
+
     .publication-journal {
         font-size: 16px;
     }
@@ -1051,6 +1061,10 @@ footer a:hover {
 }
 
 .dark-theme .publication-date {
+    color: #ffffff;
+}
+
+.dark-theme .publication-location {
     color: #ffffff;
 }
 
