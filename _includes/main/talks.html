@@ -44,7 +44,9 @@
                 {% if publication.website %}
                 <a href="{{ publication.website }}">Website</a>
                 {% endif %}
+                {% if publication.pdf %}
                 <a href="{{ publication.pdf }}">Paper</a>
+                {% endif %}
                 {% if publication.github %}
                 <a href="{{ publication.github }}">Code</a>
                 {% endif %}
